@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #F5F1DD;
+
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+#artwork-list,
+#product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.artwork {
+  font-weight: bold;
+  color: #333;
+  margin-left: 1rem;
+}
+
+.artist {
+  font-style: italic;
+}
+
+.artist,
+.date,
+.medium {
+  margin-left: 2rem;
+}
+
+.date,
+.medium {
+  color: #666;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+
+.thumbnail {
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
